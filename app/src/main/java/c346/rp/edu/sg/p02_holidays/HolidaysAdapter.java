@@ -36,7 +36,6 @@ public class HolidaysAdapter extends ArrayAdapter<Holidays> {
 
         tvName.setText(currentHoliday.getName());
         tvDate.setText(currentHoliday.getDate());
-        String imgHoliday = currentHoliday.getName();
         ivholiday.setImageResource(currentHoliday.getImage());
 
         return rowView;
