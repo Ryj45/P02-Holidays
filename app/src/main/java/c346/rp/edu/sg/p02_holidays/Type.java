@@ -6,18 +6,12 @@ import java.util.ArrayList;
 
 public class Type {
     private String type;
-    private ArrayList<Holidays> holidaysArray;
 
-    public Type(String type, ArrayList<Holidays> holidaysArray){
+    public Type(String type){
         this.type = type;
-        this.holidaysArray =holidaysArray;
     }
 
     public String getType() {
         return type;
-    }
-
-    public ArrayList<Holidays> getHolidaysArray() {
-        return holidaysArray;
     }
 }
